@@ -19,35 +19,35 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mFR-bh-kLZ">
-                                <rect key="frame" x="20" y="502" width="31" height="30"/>
+                                <rect key="frame" x="20" y="353.5" width="31" height="30"/>
                                 <state key="normal" title="送信"/>
                                 <connections>
                                     <segue destination="9VM-Nq-qao" kind="show" id="7PI-2G-rxm"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hvE-6s-Ox0">
+                                <rect key="frame" x="20" y="318.5" width="335" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前を入力してください" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Biw-Wz-EK8">
-                                <rect key="frame" x="20" y="167" width="335" height="18"/>
+                                <rect key="frame" x="20" y="295.5" width="335" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="名前" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hvE-6s-Ox0">
-                                <rect key="frame" x="20" y="190" width="335" height="307"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="hvE-6s-Ox0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="0Bw-g5-Q6e"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hvE-6s-Ox0" secondAttribute="bottom" constant="170" id="0oS-Vh-o5F"/>
-                            <constraint firstItem="hvE-6s-Ox0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="170" id="0r9-VG-mYS"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Biw-Wz-EK8" secondAttribute="trailing" constant="20" id="AmO-EC-jUi"/>
-                            <constraint firstItem="mFR-bh-kLZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="G2A-dw-uRD"/>
-                            <constraint firstItem="Biw-Wz-EK8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="GeZ-m9-wzn"/>
-                            <constraint firstItem="hvE-6s-Ox0" firstAttribute="top" secondItem="Biw-Wz-EK8" secondAttribute="bottom" constant="5" id="JMZ-9S-Yxq"/>
-                            <constraint firstItem="mFR-bh-kLZ" firstAttribute="top" secondItem="hvE-6s-Ox0" secondAttribute="bottom" constant="5" id="K1a-yk-M2U"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hvE-6s-Ox0" secondAttribute="trailing" constant="20" id="NaY-Zo-wh9"/>
+                            <constraint firstItem="hvE-6s-Ox0" firstAttribute="top" secondItem="Biw-Wz-EK8" secondAttribute="bottom" constant="5" id="HZ5-hJ-kWK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Biw-Wz-EK8" secondAttribute="trailing" constant="20" id="P4t-he-5gy"/>
+                            <constraint firstItem="mFR-bh-kLZ" firstAttribute="top" secondItem="hvE-6s-Ox0" secondAttribute="bottom" constant="5" id="PAA-Wx-opg"/>
+                            <constraint firstItem="hvE-6s-Ox0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="W8o-QL-mcd"/>
+                            <constraint firstItem="mFR-bh-kLZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jJe-4w-Wr5"/>
+                            <constraint firstItem="hvE-6s-Ox0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pFa-Xv-37v"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hvE-6s-Ox0" secondAttribute="trailing" constant="20" id="sKe-jQ-QaK"/>
+                            <constraint firstItem="Biw-Wz-EK8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="woc-QZ-XBW"/>
+                            <constraint firstItem="hvE-6s-Ox0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="yO8-Ul-OGf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -67,28 +67,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hiv-iz-gas">
+                                <rect key="frame" x="20" y="323" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DbA-aO-L0D">
-                                <rect key="frame" x="20" y="216" width="35" height="33"/>
+                                <rect key="frame" x="20" y="349" width="35" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
                                     <segue destination="bRL-TO-ig0" kind="unwind" unwindAction="unwind:" id="JjF-u5-GTK"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hiv-iz-gas">
-                                <rect key="frame" x="20" y="190" width="335" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="qNl-gt-HSA" firstAttribute="trailing" secondItem="Hiv-iz-gas" secondAttribute="trailing" constant="20" id="85U-gu-RoZ"/>
-                            <constraint firstItem="Hiv-iz-gas" firstAttribute="top" secondItem="qNl-gt-HSA" secondAttribute="top" constant="170" id="b8g-Ey-SaN"/>
-                            <constraint firstItem="DbA-aO-L0D" firstAttribute="leading" secondItem="qNl-gt-HSA" secondAttribute="leading" constant="20" id="jFa-cw-fJT"/>
-                            <constraint firstItem="Hiv-iz-gas" firstAttribute="leading" secondItem="qNl-gt-HSA" secondAttribute="leading" constant="20" id="k8d-vz-ZsX"/>
-                            <constraint firstItem="DbA-aO-L0D" firstAttribute="top" secondItem="Hiv-iz-gas" secondAttribute="bottom" constant="5" id="mXV-bN-oSy"/>
+                            <constraint firstItem="DbA-aO-L0D" firstAttribute="leading" secondItem="qNl-gt-HSA" secondAttribute="leading" constant="20" id="N3X-Yn-gGn"/>
+                            <constraint firstItem="Hiv-iz-gas" firstAttribute="leading" secondItem="qNl-gt-HSA" secondAttribute="leading" constant="20" id="cgY-oN-bmv"/>
+                            <constraint firstItem="DbA-aO-L0D" firstAttribute="top" secondItem="Hiv-iz-gas" secondAttribute="bottom" constant="5" id="crO-Gf-z7V"/>
+                            <constraint firstItem="Hiv-iz-gas" firstAttribute="centerY" secondItem="NFl-rP-qzk" secondAttribute="centerY" id="gvA-7b-INa"/>
+                            <constraint firstItem="qNl-gt-HSA" firstAttribute="trailing" secondItem="Hiv-iz-gas" secondAttribute="trailing" constant="20" id="jzS-7G-ZPD"/>
+                            <constraint firstItem="Hiv-iz-gas" firstAttribute="centerX" secondItem="NFl-rP-qzk" secondAttribute="centerX" id="kU9-2D-Jp3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qNl-gt-HSA"/>
                     </view>
