@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mFR-bh-kLZ">
-                                <rect key="frame" x="20" y="353.5" width="31" height="30"/>
+                                <rect key="frame" x="172" y="353.5" width="31" height="30"/>
                                 <state key="normal" title="送信"/>
                                 <connections>
                                     <segue destination="9VM-Nq-qao" kind="show" id="7PI-2G-rxm"/>
@@ -39,15 +39,16 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="hvE-6s-Ox0" firstAttribute="top" secondItem="Biw-Wz-EK8" secondAttribute="bottom" constant="5" id="HZ5-hJ-kWK"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Biw-Wz-EK8" secondAttribute="trailing" constant="20" id="P4t-he-5gy"/>
-                            <constraint firstItem="mFR-bh-kLZ" firstAttribute="top" secondItem="hvE-6s-Ox0" secondAttribute="bottom" constant="5" id="PAA-Wx-opg"/>
-                            <constraint firstItem="hvE-6s-Ox0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="W8o-QL-mcd"/>
-                            <constraint firstItem="mFR-bh-kLZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jJe-4w-Wr5"/>
-                            <constraint firstItem="hvE-6s-Ox0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pFa-Xv-37v"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hvE-6s-Ox0" secondAttribute="trailing" constant="20" id="sKe-jQ-QaK"/>
-                            <constraint firstItem="Biw-Wz-EK8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="woc-QZ-XBW"/>
-                            <constraint firstItem="hvE-6s-Ox0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="yO8-Ul-OGf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hvE-6s-Ox0" secondAttribute="trailing" constant="20" id="3Vz-18-Ic1"/>
+                            <constraint firstItem="Biw-Wz-EK8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BGn-B0-Fxl"/>
+                            <constraint firstItem="mFR-bh-kLZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CLw-Yt-JuA"/>
+                            <constraint firstItem="hvE-6s-Ox0" firstAttribute="top" secondItem="Biw-Wz-EK8" secondAttribute="bottom" constant="5" id="ZKs-At-Vet"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Biw-Wz-EK8" secondAttribute="trailing" constant="20" id="b7X-k2-Cv1"/>
+                            <constraint firstItem="mFR-bh-kLZ" firstAttribute="top" secondItem="hvE-6s-Ox0" secondAttribute="bottom" constant="5" id="fkO-Kc-DyQ"/>
+                            <constraint firstItem="hvE-6s-Ox0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="frc-pc-lGt"/>
+                            <constraint firstItem="hvE-6s-Ox0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lL7-Z9-2Mz"/>
+                            <constraint firstItem="hvE-6s-Ox0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="opM-lQ-ipC"/>
+                            <constraint firstItem="Biw-Wz-EK8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="sC1-ng-raZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -74,7 +75,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DbA-aO-L0D">
-                                <rect key="frame" x="20" y="349" width="35" height="33"/>
+                                <rect key="frame" x="170" y="380" width="35" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
@@ -84,12 +85,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="DbA-aO-L0D" firstAttribute="leading" secondItem="qNl-gt-HSA" secondAttribute="leading" constant="20" id="N3X-Yn-gGn"/>
-                            <constraint firstItem="Hiv-iz-gas" firstAttribute="leading" secondItem="qNl-gt-HSA" secondAttribute="leading" constant="20" id="cgY-oN-bmv"/>
-                            <constraint firstItem="DbA-aO-L0D" firstAttribute="top" secondItem="Hiv-iz-gas" secondAttribute="bottom" constant="5" id="crO-Gf-z7V"/>
-                            <constraint firstItem="Hiv-iz-gas" firstAttribute="centerY" secondItem="NFl-rP-qzk" secondAttribute="centerY" id="gvA-7b-INa"/>
-                            <constraint firstItem="qNl-gt-HSA" firstAttribute="trailing" secondItem="Hiv-iz-gas" secondAttribute="trailing" constant="20" id="jzS-7G-ZPD"/>
-                            <constraint firstItem="Hiv-iz-gas" firstAttribute="centerX" secondItem="NFl-rP-qzk" secondAttribute="centerX" id="kU9-2D-Jp3"/>
+                            <constraint firstItem="Hiv-iz-gas" firstAttribute="centerY" secondItem="NFl-rP-qzk" secondAttribute="centerY" id="5Vt-58-LaN"/>
+                            <constraint firstItem="qNl-gt-HSA" firstAttribute="trailing" secondItem="Hiv-iz-gas" secondAttribute="trailing" constant="20" id="7YY-O5-6fV"/>
+                            <constraint firstItem="DbA-aO-L0D" firstAttribute="top" secondItem="qNl-gt-HSA" secondAttribute="top" constant="360" id="QaC-wL-Hdr"/>
+                            <constraint firstItem="DbA-aO-L0D" firstAttribute="centerX" secondItem="NFl-rP-qzk" secondAttribute="centerX" id="pHM-M2-F9l"/>
+                            <constraint firstItem="Hiv-iz-gas" firstAttribute="centerX" secondItem="NFl-rP-qzk" secondAttribute="centerX" id="xPc-EU-SrG"/>
+                            <constraint firstItem="Hiv-iz-gas" firstAttribute="leading" secondItem="qNl-gt-HSA" secondAttribute="leading" constant="20" id="y94-cK-KF1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qNl-gt-HSA"/>
                     </view>
